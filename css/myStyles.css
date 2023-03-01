@@ -62,6 +62,8 @@ a:active{
 
 table {
   border-spacing: 30px 10px;
+  table-layout: fixed ;
+  width: 100% ;
 }
 
 table.index {
@@ -73,7 +75,21 @@ abbr {
 }
 
 abbr.question {
-  color: #AC6432
+  color: #AC6432;
+}
+
+td.eng {
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+
+abbr.error {
+  color: #FF0000;
+}
+
+td.highlight {
+  color: #6F892C;
+  font-size: 18px;
 }
 
 table td, table td * {
