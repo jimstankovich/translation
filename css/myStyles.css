@@ -25,6 +25,31 @@ body {
   line-height: 1.0;
 }
 
+hr {
+  width: 300px;
+  margin-left: 30px;
+}
+
+p.footnote {
+  font-size: 13px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p.thaifootnotequote {
+    font-size: 12.5px;
+    margin: 80px;
+    margin-right: 80px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+
+sup {
+  color: #AC6432;
+}
+
 /* Change the color of links on hover */
 #navbar a:hover {
   background-color: #6F892C;
@@ -45,25 +70,31 @@ margin-bottom: 0px;
 }
 
 a:link{
-  color: #352E0C;
+  text-decoration: none;
+  color: #AC6432;
 }
 a:visited{
-  color: #352E0C;
+  color: #AC6432;
 }
 a:hover{
   color: #6F892C;
 }
 a:focus{
-  color: #352E0C;
+  color: #AC6432;
 }
 a:active{
-  color: #352E0C;
+  color: #AC6432;
 }
 
 table {
   border-spacing: 30px 10px;
   table-layout: fixed ;
   width: 100% ;
+}
+
+col.second {
+  font-size: 14.5px;
+  line-height: 1.7;
 }
 
 table.index {
@@ -79,8 +110,8 @@ abbr.question {
 }
 
 td.eng {
-  font-size: 14.5px;
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 abbr.error {
