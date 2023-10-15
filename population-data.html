@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
+<link href="css/myStyles.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Population data</title>
+<style>
+
+        </style>
+    </head>
+
+
+    <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src = "scripts/tooltip.js"></script>
+
+<div id="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="other.html">Other</a>
+
+</div>
+
+<br><br>
+<center>
+</center>
+
+<h2><center>
+  Thailand population by age and province
+</center></h2>
+
+<p> <i> Sun 15th October 2023 </i>
+
+<p>
+In September 2020 I downloaded and plotted some 2019 population data from the website of the <a href = "https://www.nso.go.th/nsoweb/index?set_lang=en"> National Statistical Office of Thailand</a>. Here is the <a href = "http://statbbi.nso.go.th/staticreport/Page/sector/EN/report/sector_01_11101_EN_.xlsx"> link</a> where I downloaded the data, and <a href = "data/population_by_province_and_age.xlsx"> this </a> is the data I downloaded. Clicking on the link now gives population data for 2021 and 2022 in a similar format. It is not in identical format, so the <a href = "code/plot_pop_by_province.R"> R code </a> I wrote back in 2020 will need some modifications to work on the newer data.
+
+<p>
+Back in 2020 I was shocked by the declining birth rate visible in the taper at the bottom of the pyramid. </p>
+
+<center>
+<img src = "images/pyramid.jpg" width = 700>
+</center>
+
+<p>
+I had a look at age distributions by province...
+</p>
+
+<center>
+<img src = "images/age.by.province.jpg" width = 700>
+</center>
+
+<p>
+...and plotted population pyramids for some of the outlier provinces.
+</p>
+
+<center>
+<img src = "images/pyramid.south.jpg" width = 700>
+</center>
+
+<center>
+<img src = "images/pyramid.north.jpg" width = 700>
+</center>
+
+<br>
+<br>
+<center><small>Uploaded 2023–10-15.
+</small>
+</center>
+    </body>
+</html>
